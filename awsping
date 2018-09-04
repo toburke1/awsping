@@ -1,0 +1,7 @@
+---
+- name: ping aws inventory
+  hosts: all
+  
+  tasks:
+  - name: ping the devices
+    action: ping
